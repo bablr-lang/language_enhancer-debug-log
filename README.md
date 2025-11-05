@@ -6,7 +6,7 @@ This langauge enhancer `console.log`s productions as they are evaluated. It is h
 
 ```js
 import { parse } from '@bablr/vm';
-import * as langauge from 'some-langauge';
+import langauge from 'some-langauge';
 import { logEnhancer } from '@bablr/hol-debug-log';
 
 parse(
