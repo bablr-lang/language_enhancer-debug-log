@@ -12,8 +12,8 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/agast-helpers": "0.9.0",
-    "@bablr/agast-vm-helpers": "0.9.0"
+    "@bablr/agast-helpers": "0.10.0",
+    "@bablr/agast-vm-helpers": "0.10.0"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c97bfa4b3663f8378e9b3e42bb5a41e685406cf9",
@@ -23,7 +23,10 @@
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.6.2"
   },
-  "repository": "github:bablr-lang/language_enhancer-debug-log",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bablr-lang/language_enhancer-debug-log.git"
+  },
   "homepage": "https://github.com/bablr-lang/language_enhancer-debug-log",
   "license": "MIT"
 }
